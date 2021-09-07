@@ -15,7 +15,7 @@ function setup() {
   createCanvas(1000,500);
   engine = Engine.create();
   world = engine.world;
-    var snowman= createSprite(700, 300, 50, 50);
+  snowman= createSprite(700, 300, 50, 50);
   snowman.addImage(snowmanImg);
   snowman.scale= 0.3;
 
